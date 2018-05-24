@@ -26,7 +26,7 @@
         <view class='comment-reply'>
           <text class='other-user'>另一个王涛</text>:
           <text>你笑啥？笑啥？</text>
-          <text class='more'>共十条回复 ></text>
+          <text class='more' catchtap='goReply'>共十条回复 ></text>
         </view>
         <view class='comment-user-info'>
           <text>5-13 13:43</text>

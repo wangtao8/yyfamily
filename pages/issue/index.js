@@ -66,13 +66,7 @@ Page({
   
   },
   getChange: function (e) {
-    this.setData({ writed: e.detail.cursor})
-  },
-  getFocus: function(e) {
-    this.setData({ elHeight: '1350rpx' })
-  },
-  getBlur: function (e) {
-    this.setData({ elHeight: '350rpx' })
+    this.setData({ writed: e.detail.value.length})
   },
   chooseImg: function () {
     wx.chooseImage({

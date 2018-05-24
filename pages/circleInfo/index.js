@@ -96,5 +96,10 @@ Page({
   cancel: function () {
     var _this = this
     this.setData({ elWidth: '670rpx', elMargin: '16rpx 0rpx 0rpx 30rpx', isDisplay: 'none', placeholders: '发表你的评论吧', content: '发表' })
+  },
+  goReply: function () {
+    wx.navigateTo({
+      url: '/pages/reply/index?id=1'
+    })
   }
 })

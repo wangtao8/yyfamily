@@ -40,15 +40,31 @@ page{
   color: #929292;
   font-size: 28rpx;
 }
+.text-info{
+  position: absolute;
+  right: 0rpx;
+  top: 40rpx;
+}
 .jion-cirlce{
-  float: right;
+  /* float: right; */
   width: 120rpx;
   border-radius: 30rpx;
   color: #fd8b0f;
   border: 2rpx solid #fd8b0f;
   padding: 4rpx 12rpx;
-  position: relative;
-  top: 20rpx;
+  /* position: absolute;
+  right: 0rpx;
+  top: 80rpx; */
+}
+.publish{
+  width: 120rpx;
+  border-radius: 30rpx;
+  color: #fd8b0f;
+  border: 2rpx solid #fd8b0f;
+  padding: 4rpx 12rpx;
+   position: relative;
+  right: 20rpx;
+  /* top: 0rpx;  */
 }
 .essay-title{
   font-size: 36rpx;

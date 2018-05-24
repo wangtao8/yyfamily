@@ -9,8 +9,8 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "友友之家",
-    "navigationBarTextStyle": "#fff"
+    "navigationBarTextStyle": "black"
   }
 }

@@ -83,7 +83,7 @@ Page({
   },
   openMessageInfo: function () {
     wx.navigateTo({
-      url: '/pages/reply/index?id=1'
+      url: '/pages/circleInfo/index?id=1'
     })
   },
   laudOrCancel: function () {
@@ -91,12 +91,12 @@ Page({
   },
   toInfo: function () {
     wx.navigateTo({
-      url: '/pages/circleInfo/index?id=1'
+      url: '/pages/circlePresent/index?isJion=1'
     })
   },
   goInfo: function () {
     wx.navigateTo({
-      url: '/pages/circlePresent/index'
+      url: '/pages/circlePresent/index?isJion=0'
     })
   },
   jion: function () {

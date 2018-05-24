@@ -2,7 +2,7 @@
     <text>标题</text><input type='text'/>
 </view>
 <view class='issue-content clear'>
-<text>内容</text><textarea maxlength='2000' bindinput='getChange' style='padding-bottom:60rpx;height:{{elHeight}}' bindfocus='getFocus' bindblur='getBlur'></textarea>
+<text>内容</text><textarea maxlength='2000' bindinput='getChange' style='padding-bottom:60rpx;height:{{elHeight}}'></textarea>
 <text class='lave'>{{writed}}/{{2000 - writed}}</text>
 </view>
 <view class='issue-add clear'>

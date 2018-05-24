@@ -116,7 +116,7 @@
       </view>
       <view class='botoom-nav'>
         <view>友友之家</view>
-        <view>创意中心</view>
+        <!-- <view>创意中心</view> -->
         <view>商城</view>
         <view>我的</view>
       </view>
