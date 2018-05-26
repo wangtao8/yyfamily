@@ -7,9 +7,9 @@ page,
 .page__bd{
     padding-bottom: 0;
 }
-/* .weui-tab__content{
+ /* .weui-tab__content{
     text-align: center;
-} */
+}  */
 .weui-tab__content:nth-child(3){
   padding: 20rpx;
 }
@@ -39,9 +39,9 @@ page,
   border-bottom: inherit;
 }
 .slide-image{
-  /* border-radius: 16rpx; */
+   border-radius: 16rpx; 
   height: 100%;
-  width: 100%;
+  width: 96%;
 }
 swiper{
   margin-bottom: 20rpx;
@@ -58,9 +58,9 @@ swiper{
   text-align: center;
 }
 .user-image{
-  width: 100%;
+  width: 96%;
   height: 318rpx;
-  /* border-radius: 16rpx; */
+   border-radius: 16rpx; 
   background-image: url('http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg');
   background-repeat: round;
   margin: 20rpx auto;

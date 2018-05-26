@@ -13,7 +13,7 @@
           <span>26</span>
         </view>
         <view class='reply'>
-          <image src='../../images/message.png'></image>
+          <image src='../../images/message.png' class='clear'></image>
         </view>
       </view>
     </view>

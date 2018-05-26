@@ -66,6 +66,7 @@ Page({
   },
   openToast: function (e) {
     var id = e.target.dataset.id
+    console.log(id)
     if (id == 0) {
       this.setData({ trueOrfalse: 1 })
       wx.showToast({
