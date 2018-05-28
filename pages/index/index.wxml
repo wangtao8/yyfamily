@@ -70,7 +70,7 @@
                 </view>
               </view>
               <view class='user-say'>给一张图，大家感受一下..</view>
-              <view style="width: 100%;height: 24px;">
+              <view style="width: 100%;height: 48rpx;line-height:48rpx;">
                 <view class='use-label'>#get新玩法#</view>
                 <view class='user-interactive'>
                   <view class='user-comment' catchtap='openMessageInfo'>
@@ -178,17 +178,17 @@
       </view>
       <view class='botoom-nav'>
         <view>
-            <view class='home'></view>
-            <view>友友之家</view>
+            <image src='../../images/home.png'></image>
+            <view class='home'>友友之家</view>
         </view>
         <!-- <view>创意中心</view> -->
         <view>
-            <view class='shop'></view>
-            <view>商城</view>
+            <image src='../../images/shop2.png'></image>
+            <view class='shop'>商城</view>
         </view>
         <view>
-            <view class='self'></view>
-            <view>我的</view>
+            <image src='../../images/self2.png'></image>
+            <view class='self'>我的</view>
         </view>
       </view>
     </view>

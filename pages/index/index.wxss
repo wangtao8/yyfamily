@@ -82,7 +82,7 @@ swiper{
   bottom:34rpx;
 }
 .user-watch>span{
-  font-size: 28rpx;
+  font-size: 24rpx;
   width: 48rpx;
   height: 48rpx;
   position: absolute;
@@ -109,37 +109,37 @@ swiper{
   margin-left: 20rpx;
 }
 .use-label{
-  font-size: 32rpx;
+  font-size: 28rpx;
   float: left;
   margin-left: 20rpx;
   color: #fe5431;
 }
 .user-interactive{
   /* background: red; */
-   width: 280rpx; 
+   width: 240rpx; 
   float: right;
-  margin-right: 20rpx;
-  font-size: 32rpx;
+  margin-right: -10rpx;
+  font-size: 26rpx;
   color: #949494;
 }
 .user-interactive>span{
   width:0rpx;
   height:48rpx;
   display:inline-block;
-  margin-right:28rpx;
+  margin-right:20rpx;
   position: relative;
-  top: -10rpx;
+  top: -15rpx;
 }
 .user-comment{
-  width:120rpx;
+  width:100rpx;
   height:48rpx;
   display: inline-block;
 }
 .user-comment>image{
-  width:34rpx;
+  width:32rpx;
   height:30rpx;
   float:left;
-  margin-top:14rpx;
+  margin-top:12rpx;
 }
 .user-comment>span{
   width: 48rpx;
@@ -155,7 +155,7 @@ swiper{
 }
 .user-laud>image{
   width:32rpx;
-  height:32rpx;
+  height:30rpx;
   float:left;
   margin-top:10rpx;
 }
@@ -177,28 +177,38 @@ swiper{
   position:fixed;
   bottom:0;
   left:0;
+  border-top: 1rpx solid #ccc;
 }
 .botoom-nav>view{
   position: relative;
    width: 128rpx; 
-  height: 120rpx;
+  height: 100rpx;
   text-align: center;
+  top: -8rpx;
 }
-.botoom-nav view>view:nth-child(1){
-  width: 50rpx;
-  height: 50rpx;
-  background-image: url('https://imagecs.quanyou.com.cn/group1/M00/00/59/rB4DMFsLq1CAMGBkAAAOxb26YQw102.png');
-  margin: 0 auto;
+.botoom-nav view>image{
+  width: 40rpx;
+  height: 40rpx;
 }
-.botoom-nav>view>view:nth-child(2){
+.home{
+  color: #00bf8e;
+}
+.shop{
+  
+}
+.self{
+  
+}
+.botoom-nav>view>view{
   position: absolute;
-  bottom: 0rpx;
+  bottom: -18rpx;
   left: 0rpx;
   width: 128rpx;
   text-align: center;
+  font-size: 20rpx;
 }
 .weui-tab__panel{
-  height: calc(100% - 88rpx)
+  height: calc(100% - 90rpx)
 }
 
 .all-circle{
@@ -325,20 +335,7 @@ swiper{
   bottom: 12rpx;
   font-size: 28rpx;
 }
-.botoom-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height:100rpx;
-  /* line-height:88rpx; */
-  color: #424242;
-  width:100%;
-  font-size:32rpx;
-  position:fixed;
-  bottom:0;
-  left:0;
-  background: #fff;
-}
+
 .weui-navbar__slider{
   width:6em;
 }
