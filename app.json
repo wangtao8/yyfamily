@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/issue/index",
-    "pages/circlePresent/index",
     "pages/circleInfo/index",
     "pages/reply/index",
+    "pages/issue/index",
+    "pages/circlePresent/index",
     "pages/articleDetails/index"    
   ],
   "window": {

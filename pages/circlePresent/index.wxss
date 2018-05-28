@@ -50,7 +50,7 @@ page{
   bottom: 0rpx;
   height: 105rpx;
   width: 100%;
-  background-color: green;
+  background-color: #00bf8e;
   text-align: center;line-height: 105rpx;
   font-size: 36rpx;
   color: #fff;

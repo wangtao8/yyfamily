@@ -5,7 +5,6 @@ page {
   box-sizing: border-box;
   height: 100%;
 }
-
 .comment-top {
   width: 100%;
   height: 76rpx;
@@ -139,11 +138,50 @@ page {
   width: 48rpx;
   height: 48rpx;
   position: absolute;
-  right:180rpx;
+  right:228rpx;
   bottom:22rpx;
   box-sizing: border-box;
   padding-left: 10rpx;
   padding-bottom: 10rpx;
+}
+.post-image{
+  width:36rpx;
+height:30rpx;
+position:absolute;
+right:164rpx;
+top:30rpx;
+}
+.chooseImage{
+  width: 96%;
+  height: 155rpx;
+  /* background: red; */
+  position: absolute;
+  top: -155rpx;
+  left: 0rpx;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  padding: 10rpx 10rpx;
+}
+.chooseImage>view{
+  width: 135rpx;
+  height: 135rpx;
+  display: inline-block;
+  margin-right: 14rpx;
+  position: relative;
+}
+.isImage{
+  width: 135rpx;
+  height: 135rpx;
+}
+.redDele{
+  position: absolute;
+  right: 10rpx;
+  top: 10rpx;
+  width: 32rpx;
+  height: 32rpx;
 }
 .top-info {
   height: calc(100% - 90rpx);
@@ -163,11 +201,10 @@ page {
   width: 90%;
   float: left;
 }
-
 .submitBtn {
   font-size: 32rpx;
   color: #098d3b;
   position: absolute;
   right: 80rpx;
-  bottom: 28rpx;
+  bottom: 22rpx;
 }
