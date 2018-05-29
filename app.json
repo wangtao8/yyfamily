@@ -1,11 +1,12 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/details/index",
     "pages/reply/index",
     "pages/circleInfo/index",
     "pages/issue/index",
     "pages/circlePresent/index",
-    "pages/articleDetails/index"    
+    "pages/articleDetails/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

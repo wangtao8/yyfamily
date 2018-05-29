@@ -141,7 +141,7 @@
               </block>
             </swiper>
             <view class='blank20'></view>
-            <view class='more'>
+            <view class='more' catchtap='goDetails'>
               <text>装修攻略</text>
               <text>更多 ></text>
             </view>

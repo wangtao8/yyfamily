@@ -116,5 +116,10 @@ Page({
     wx.navigateTo({
       url: '/pages/circleInfo/index?id=1'
     })
+  },
+  goDetails: function () {
+    wx.navigateTo({
+      url: '/pages/details/index?id=1'
+    })
   }
 });
