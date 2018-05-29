@@ -148,6 +148,9 @@ Page({
           urls.push(tempFilePaths[i])
         }
         _this.setData({ urls: urls, marBot: '250rpx'})
+        if (_this.data.urls.length > 5) {
+          _this.setData({ scrollWidth: '96%' })
+        }
       }
     })
   },
@@ -166,6 +169,8 @@ Page({
       _this.setData({ urls: _this.data.urls })
       if (_this.data.urls.length == 0) {
         _this.setData({ marBot: '120rpx'})
+      } else if (_this.data.urls.length <= 5) {
+        _this.setData({ scrollWidth: '' })
       }
   }
 })

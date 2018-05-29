@@ -67,7 +67,7 @@
   </view>
 </scroll-view>
 <view class='write-comment'>
-  <view class='chooseImage' wx:if='{{urls.length > 0}}'>
+  <view class='chooseImage' wx:if='{{urls.length > 0}}' style='width:{{scrollWidth}}'>
     <view wx:for='{{urls}}' wx:key='{{index}}' catchtap='previewImage' data-id='{{index}}'>
       <image src='../../images/redDele.png' class='redDele' catchtap='redDele' data-id='{{index}}'></image>
       <image src='{{item}}' class='isImage'></image>

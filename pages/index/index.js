@@ -111,5 +111,10 @@ Page({
     wx.navigateTo({
       url: '/pages/articleDetails/index'
     })
+  },
+  toInfo: function () {
+    wx.navigateTo({
+      url: '/pages/circleInfo/index?id=1'
+    })
   }
 });

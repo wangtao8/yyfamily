@@ -85,6 +85,32 @@
                 </view>
               </view>
             </view>
+            <view class='hot-topic'>
+              <view class='essay-title2'>热门话题</view>
+              <view class='essay-all' catchtap='toInfo' wx:for='{{indexs}}' wx:key='{{index}}'>
+                <view class='all-images'>
+                  <image src='../../images/3.jpg' class='topic-img'></image>
+                  <view class='images-info'>
+                    <image src='../../images/laud012.png'></image>
+                    <text>3</text>
+                  </view>
+                </view>
+                <view class='topic-info'>
+                  <view class='business-titlle'>全友家居</view>
+                  <view class='user-info'>
+                    <image src='../../images/2.jpg' class='user-img'></image>
+                    <text>王涛</text>
+                  </view>
+                  <view class='business-time'>
+                    <view>2018-5-26 13:22</view>
+                    <view>
+                      <image src='../../images/message.png' class='user-message'></image>
+                      <text>10</text>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
           </view>
         </view>
         <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
@@ -116,8 +142,8 @@
             </swiper>
             <view class='blank20'></view>
             <view class='more'>
-                <text>装修攻略</text>
-                <text>更多 ></text>
+              <text>装修攻略</text>
+              <text>更多 ></text>
             </view>
             <view class='user-share' wx:for="{{indexs}}" wx:key='*this' catchtap='articleInfo'>
               <view class='user-image'>
@@ -178,17 +204,17 @@
       </view>
       <view class='botoom-nav'>
         <view>
-            <image src='../../images/home.png'></image>
-            <view class='home'>友友之家</view>
+          <image src='../../images/home.png'></image>
+          <view class='home'>友友之家</view>
         </view>
         <!-- <view>创意中心</view> -->
         <view>
-            <image src='../../images/shop2.png'></image>
-            <view class='shop'>商城</view>
+          <image src='../../images/shop2.png'></image>
+          <view class='shop'>商城</view>
         </view>
         <view>
-            <image src='../../images/self2.png'></image>
-            <view class='self'>我的</view>
+          <image src='../../images/self2.png'></image>
+          <view class='self'>我的</view>
         </view>
       </view>
     </view>
