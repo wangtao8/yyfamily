@@ -14,7 +14,8 @@ Page({
     isfocus: false,
     nums: 0,
     urls: [],
-    marBot: '120rpx'
+    marBot: '120rpx',
+    scrollWidth: ''
   },
 
   /**
@@ -108,7 +109,6 @@ Page({
   },
   uploadImage: function () {
     var currentIndex = this.data.urls.length
-    console.log(6 - currentIndex)
     wx.chooseImage({
       count: 6 - currentIndex, // 默认9
       sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
@@ -126,6 +126,9 @@ Page({
           urls.push(tempFilePaths[i])
         }
         _this.setData({ urls: urls, marBot: '250rpx' })
+        if (_this.data.urls.length > 5) {
+          _this.setData({ scrollWidth: '96%'})
+        }
       }
     })
   },
@@ -144,6 +147,8 @@ Page({
     _this.setData({ urls: _this.data.urls })
     if (_this.data.urls.length == 0) {
       _this.setData({ marBot: '120rpx' })
+    } else if (_this.data.urls.length <= 5) {
+      _this.setData({ scrollWidth: '' })
     }
   }
 })

@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/reply/index",
     "pages/index/index",
     "pages/circleInfo/index",
-    "pages/reply/index",
     "pages/issue/index",
     "pages/circlePresent/index",
     "pages/articleDetails/index"    
