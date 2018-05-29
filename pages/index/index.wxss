@@ -87,7 +87,7 @@ swiper{
   height: 48rpx;
   position: absolute;
   left: 90rpx;
-  bottom: 18rpx;
+  bottom: 14rpx;
   color: #fff;
 }
 .user-share{
@@ -290,8 +290,6 @@ swiper{
   white-space:nowrap;
 } 
 .hot-info{
-  /* width: 176rpx; */
-  /* display: inline-block;   */
   font-size: 24rpx;
   margin-right: 30rpx;
   position: relative;
@@ -368,7 +366,6 @@ swiper{
 .essay-all{
   margin-top: 26rpx;
   position: relative;
-  /* margin-bottom: 24rpx; */
 }
 .essay-content{
   font-size: 28rpx;
@@ -435,12 +432,6 @@ swiper{
   font-size: 26rpx;
 }
 .business-time{
-  /* width: calc(100% - 320rpx); */
-  /* height: 110rpx; */
-  /* position: absolute;
-  right: 0rpx;
-  top: 6rpx;
-  text-align:right; */
   margin-top: 10rpx;
 }
 .business-time>view:nth-child(1){
@@ -468,8 +459,4 @@ swiper{
   font-size: 26rpx;
   color: #8f8f8f;
   margin-top: -4rpx;
-  /* position: absolute;
-  right: 0rpx;
-  bottom: 0rpx;
-  color: #999999; */
 }

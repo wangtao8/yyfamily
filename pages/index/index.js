@@ -112,7 +112,7 @@ Page({
       url: '/pages/articleDetails/index'
     })
   },
-  toInfo: function () {
+  toInfos: function () {
     wx.navigateTo({
       url: '/pages/circleInfo/index?id=1'
     })

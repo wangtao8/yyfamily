@@ -87,11 +87,11 @@
             </view>
             <view class='hot-topic'>
               <view class='essay-title2'>热门话题</view>
-              <view class='essay-all' catchtap='toInfo' wx:for='{{indexs}}' wx:key='{{index}}'>
+              <view class='essay-all' catchtap='toInfos' wx:for='{{indexs}}' wx:key='{{index}}'>
                 <view class='all-images'>
                   <image src='../../images/3.jpg' class='topic-img'></image>
                   <view class='images-info'>
-                    <image src='../../images/laud012.png'></image>
+                    <image src='../../images/looknum.png'></image>
                     <text>3</text>
                   </view>
                 </view>

@@ -16,7 +16,7 @@
       <view class='all-images'>
           <image src='../../images/3.jpg' class='topic-img'></image>
           <view class='images-info'>
-              <image src='../../images/laud012.png'></image>
+              <image src='../../images/looknum.png'></image>
               <text>3</text>
           </view>
       </view>
@@ -39,7 +39,7 @@
       <view class='all-images'>
           <image src='../../images/3.jpg' class='topic-img'></image>
           <view class='images-info'>
-              <image src='../../images/laud012.png'></image>
+              <image src='../../images/looknum.png'></image>
               <text>3</text>
           </view>
       </view>
@@ -62,7 +62,7 @@
       <view class='all-images'>
           <image src='../../images/3.jpg' class='topic-img'></image>
           <view class='images-info'>
-              <image src='../../images/laud012.png'></image>
+              <image src='../../images/looknum.png'></image>
               <text>3</text>
           </view>
       </view>
